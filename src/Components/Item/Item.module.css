@@ -1,0 +1,84 @@
+
+.item{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.itemimage{
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+}
+.item:hover{
+    transform: scale(1.01);
+}
+.wishlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 52, 1);
+    height:30px;
+    width:100px;
+    border:0;
+    border-radius: 3px;
+    color:white;
+    font-weight: bold;
+}
+
+.wishlist:hover{
+    background-color: rgb(51, 87, 51);
+}
+.statusbtn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.badge{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.name{
+    font-family: serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.overlay{
+    opacity: 0.6;
+} 
+
+.notifyme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(211, 211, 211);
+    height:30px;
+    width:100px;
+    border:0;
+    border-radius: 3px;
+    
+    cursor: pointer;
+}
+
+.pricerating{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap:6%;
+}
+.hearticon :hover{
+ cursor: pointer;
+}
+
+
+

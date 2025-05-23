@@ -1,0 +1,29 @@
+.itemsContainer{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    padding:0 20px;
+    margin-left:5%;
+    margin-right:5%;
+    justify-content: space-evenly;
+}
+.title{
+    text-align: center;
+    font-family: 'serif';
+    color:rgb(13, 93, 13);
+    font-weight: 900;
+    /* padding:30px; */
+ }
+ .description{
+    text-align: center;
+    font-family: 'serif';
+    color:rgb(13, 93, 13);
+    font-weight: bold;
+ }
+ .Salestitle{
+    text-align: center;
+    font-family: 'serif';
+    color:rgb(13, 93, 13);
+    font-weight: 900;
+    padding-top: 65px;
+ }
