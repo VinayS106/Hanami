@@ -33,13 +33,13 @@ This is Web App of Hanami Store.
 
 1. Clone the repository:
     ```
-    git clone https://github.com/ushasri2645/ReactApp/tree/hanami-store-1
+    git clone git@github.com:VinayS106/Hanami.git
     ```
 
 ### Run Backend
 1. Navigate to the Backend directory:
     ```sh
-    cd <repo_name>/BackendHanami
+    cd Hanami/BackendHanami
     ```
 2. Install the dependencies:
     ```sh
